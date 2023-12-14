@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Doc_Rozhin_Person: Исходный файл Rozhin_Person/Rozhin_Person.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Doc_Rozhin_Person
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_efdf3dc90d0a694f21fdb83b6475a830.html">Rozhin_Person</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Rozhin_Person.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_book.html">   28</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_book.html">Book</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">string</span> Author; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">string</span> Title; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">string</span> Publisher; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> Year; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> PageCount; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_book.html#ada7ad95f984346107def080b05f2d79e">   49</a></span>&#160;    <a class="code" href="class_book.html#ada7ad95f984346107def080b05f2d79e">Book</a>(<span class="keywordtype">string</span> author, <span class="keywordtype">string</span> title, <span class="keywordtype">string</span> publisher, <span class="keywordtype">int</span> year, <span class="keywordtype">int</span> pageCount)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        : Author(author), Title(title), Publisher(publisher), Year(year), PageCount(pageCount) {}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_book.html#a818a59834fe72db364fb426d915cf5c2">   56</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_book.html#a818a59834fe72db364fb426d915cf5c2">getRozhinSurname</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Рожин&quot;</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_book.html#a357d171d5d7c90340ee91a137edf958f">   64</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_book.html#a357d171d5d7c90340ee91a137edf958f">getAuthor</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> Author;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">   72</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">getTitle</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> Title;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="class_book.html#ad96401e4cfcc4adb2205a1a8ddbaa7e8">   80</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_book.html#ad96401e4cfcc4adb2205a1a8ddbaa7e8">getPublisher</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> Publisher;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">int</span> getYear()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> Year;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> getPageCount()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> PageCount;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">void</span> showBooksByAuthor(<span class="keyword">const</span> <a class="code" href="class_book.html">Book</a>* books, <span class="keywordtype">int</span> size, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; author)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;Книги автора &quot;</span> &lt;&lt; getRozhinSurname() &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; author &lt;&lt; <span class="stringliteral">&quot;:\n&quot;</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">if</span> (books[i].getAuthor() == author) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                cout &lt;&lt; books[i].<a class="code" href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">getTitle</a>() &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; books[i].getYear() &lt;&lt; <span class="stringliteral">&quot;)\n&quot;</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">void</span> showBooksByPublisher(<span class="keyword">const</span> <a class="code" href="class_book.html">Book</a>* books, <span class="keywordtype">int</span> size, <span class="keyword">const</span> std::string&amp; publisher)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;Книги издательства &quot;</span> &lt;&lt; publisher &lt;&lt; <span class="stringliteral">&quot;:\n&quot;</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">if</span> (books[i].getPublisher() == publisher) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                cout &lt;&lt; books[i].<a class="code" href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">getTitle</a>() &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; books[i].getYear() &lt;&lt; <span class="stringliteral">&quot;)\n&quot;</span>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">void</span> showBooksPublishedAfterYear(<span class="keyword">const</span> <a class="code" href="class_book.html">Book</a>* books, <span class="keywordtype">int</span> size, <span class="keywordtype">int</span> year)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;Книги, выпущенные после &quot;</span> &lt;&lt; year &lt;&lt; <span class="stringliteral">&quot; года:\n&quot;</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">if</span> (books[i].getYear() &gt; year) {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                cout &lt;&lt; books[i].<a class="code" href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">getTitle</a>() &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; books[i].getYear() &lt;&lt; <span class="stringliteral">&quot;)\n&quot;</span>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;};</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keywordtype">int</span> main() {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="comment">// Пример использования класса Book</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> librarySize = 3;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="class_book.html">Book</a> library[librarySize] = {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="class_book.html">Book</a>(<span class="stringliteral">&quot;Иванов&quot;</span>, <span class="stringliteral">&quot;Книга 1&quot;</span>, <span class="stringliteral">&quot;Издательство A&quot;</span>, 2000, 300),</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="class_book.html">Book</a>(<span class="stringliteral">&quot;Петров&quot;</span>, <span class="stringliteral">&quot;Книга 2&quot;</span>, <span class="stringliteral">&quot;Издательство B&quot;</span>, 2010, 250),</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <a class="code" href="class_book.html">Book</a>(<span class="stringliteral">&quot;Сидоров&quot;</span>, <span class="stringliteral">&quot;Книга 3&quot;</span>, <span class="stringliteral">&quot;Издательство A&quot;</span>, 2020, 400),</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    };</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="class_book.html">Book</a> rozhinBook(<span class="stringliteral">&quot;Рожин&quot;</span>, <span class="stringliteral">&quot;Книга Рожина&quot;</span>, <span class="stringliteral">&quot;Издательство C&quot;</span>, 2022, 350);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">// Пример использования методов</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    rozhinBook.showBooksByAuthor(library, librarySize, <span class="stringliteral">&quot;Рожин&quot;</span>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    rozhinBook.showBooksByPublisher(library, librarySize, <span class="stringliteral">&quot;Издательство A&quot;</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    rozhinBook.showBooksPublishedAfterYear(library, librarySize, 2015);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
+<div class="ttc" id="aclass_book_html"><div class="ttname"><a href="class_book.html">Book</a></div><div class="ttdoc">Класс описания пеерсоны</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:28</div></div>
+<div class="ttc" id="aclass_book_html_a357d171d5d7c90340ee91a137edf958f"><div class="ttname"><a href="class_book.html#a357d171d5d7c90340ee91a137edf958f">Book::getAuthor</a></div><div class="ttdeci">string getAuthor() const</div><div class="ttdoc">Получить автора книги.</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:64</div></div>
+<div class="ttc" id="aclass_book_html_a6ace4ac1026bcbb79f503274173246a5"><div class="ttname"><a href="class_book.html#a6ace4ac1026bcbb79f503274173246a5">Book::getTitle</a></div><div class="ttdeci">string getTitle() const</div><div class="ttdoc">Получить название книги.</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:72</div></div>
+<div class="ttc" id="aclass_book_html_a818a59834fe72db364fb426d915cf5c2"><div class="ttname"><a href="class_book.html#a818a59834fe72db364fb426d915cf5c2">Book::getRozhinSurname</a></div><div class="ttdeci">string getRozhinSurname() const</div><div class="ttdoc">Получить фамилию &quot;Рожин&quot;.</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:56</div></div>
+<div class="ttc" id="aclass_book_html_ad96401e4cfcc4adb2205a1a8ddbaa7e8"><div class="ttname"><a href="class_book.html#ad96401e4cfcc4adb2205a1a8ddbaa7e8">Book::getPublisher</a></div><div class="ttdeci">string getPublisher() const</div><div class="ttdoc">Получить издательство книги.</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:80</div></div>
+<div class="ttc" id="aclass_book_html_ada7ad95f984346107def080b05f2d79e"><div class="ttname"><a href="class_book.html#ada7ad95f984346107def080b05f2d79e">Book::Book</a></div><div class="ttdeci">Book(string author, string title, string publisher, int year, int pageCount)</div><div class="ttdoc">Конструктор по умолчанию</div><div class="ttdef"><b>Definition:</b> Rozhin_Person.h:49</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
